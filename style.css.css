@@ -1,0 +1,87 @@
+
+.body{
+    font-size: 87.5%;
+font-family: arial;
+text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+
+
+}
+
+
+.mainHeader nav ul li{
+    float: left;
+    display: inline;
+    
+}
+.mainHeader nav a:link, .mainHeader nav a:visited{
+    color:yellowgreen;
+    display: inline-block;
+    padding: 20px 65px;
+    height: 25x;  
+}  
+    .mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a.visited{
+    background-color:darkred;
+    text-shadow: none;
+}
+  .mainHeader a{
+    text-decoration: none;
+}
+.mainHeader nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+}
+ .mainHeader nav{
+     height: 40px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     padding: 5px;
+	 border-radius: 5px;
+
+ }
+ a{
+     text-decoration:none;
+ }
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+  .sidenav {padding-top: 15px;
+  }
+
+  .sidenav a {font-size: 15px;
+  }
